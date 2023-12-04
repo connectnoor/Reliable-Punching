@@ -7,15 +7,17 @@ body{
     width: 100vw;
     height: 100%;
     background-color: #F8F8F8;
+
 }
 .container{
     width: 100%;
     height: 100%;
-    padding: 50px 30px;
+    
 }
 .login-container{
     width: 60%;
     height: 100%;
+    
     /* background-color: red; */
     /* border: 2px solid red; */
     margin: auto;
@@ -160,12 +162,19 @@ span input:hover{
 
 /* media -query */
 @media only screen and (max-width: 1000px) {
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
     .container{
-        padding: 20px 15px;
-        width: 100%;
+        /* padding: 20px 15px;
+        width: 100%; */
+        padding: 0px;
+        margin: 0px;
     }
     .login-container{
         width:100%;
+        
        
     }
 }
