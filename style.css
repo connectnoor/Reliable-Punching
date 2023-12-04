@@ -666,6 +666,7 @@ button a{
         text-align: center;
         padding: 2% 1%;
         font-size: 1.4rem;
+        margin-top: 9px;
 
     }
 
@@ -682,5 +683,5 @@ button a{
     .price-content-container{
         
         
-    } */
-}
+    }
+} */
