@@ -4,7 +4,7 @@
 }
 
 body {
-    width: 100vw;
+    
     height: 100%;
 }
 
@@ -122,15 +122,15 @@ nav {
 
 /* ------------------------for hero section-------------------------- */
 
-/*--------------------------------- hero-section-------------------------------- */
 
 .hero {
     width: 100%;
     height: 100%;
     display: flex;
-
+    margin-top: 3.3rem;
     justify-content: space-evenly;
-    padding: 35px 0px 0px;
+    background-color: greenyellow;
+   
 }
 
 /* -----------------------------------for hero left------------------------------------------ */
@@ -142,7 +142,8 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 20px;
+    
+    /* background-color: yellow; */
 }
 
 .hero-heading {
@@ -157,7 +158,7 @@ nav {
 }
 
 .hero-image {
-    width: 100%;
+    width: 97%;
     margin-top: 10px;
 }
 
@@ -176,6 +177,8 @@ nav {
 
 .hero-text p {
     line-height: 25px;
+    width: 96%;
+    margin: auto;
 }
 
 /* -------------------------------------------for hero right----------------------------- */
@@ -183,17 +186,20 @@ nav {
 
 .hero-right {
     width: 50%;
-    /* background-color: beige; */
+    background-color: beige;
     display: flex;
     justify-content: center;
-    padding: 10px 20px;
+    
+    /* background-color: red; */
+    height: 100%;
 }
 
 form {
     width: 65%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+   
 
 }
 
@@ -206,10 +212,12 @@ form {
     padding: 30px 20px;
     font-family: 'Ubuntu', sans-serif;
     background-color: #F4F7F8;
-    box-shadow: 1px 1px 10px rgb(225, 224, 224);
+    box-shadow: 1px 1px 13px rgb(165, 164, 164);
     width: 100%;
+   height:75%;
 
 }
+
 
 form h3 {
     color: black;
@@ -284,12 +292,12 @@ textarea {
 }
 
 hr {
-    width: 98%;
-    margin-left: 10px;
+    width: 96%;
+    margin: auto;
+    height: 2px;
 
 }
-
-/* ---------hero section ends---------- */
+/* ---------hero section ends---------- *
 
 /* ----------here key chain section starts--------- */
 .keychain {
@@ -340,6 +348,7 @@ hr {
 
 /* =-----------------here keychain scetion ends ------------ */
 
+
 /*                here labels section starts------------------ */
 .labels {
     display: flex;
@@ -370,6 +379,8 @@ hr {
 
 }
 
+
+
 /* ----------HERE IS RIGHT PLACE SECTION--------------- */
 .right-place {
     background-color: #F3F3F3;
@@ -389,6 +400,8 @@ hr {
     line-height: 23px;
     font-size: 1rem;
 }
+
+
 
 /* -----------------for section options------------------ */
 .options{
@@ -451,6 +464,7 @@ hr {
 .box p:hover{
     transform: scale(1.05);
 }
+
 
 /* --------------why choose us section-------------- */
 .choose{
@@ -515,7 +529,8 @@ hr {
 }
 .last-images{
     width: 95%;
-    padding: 40px;
+    margin: auto;
+    padding: 40px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -592,19 +607,6 @@ hr {
     font-size: 1rem;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -701,7 +703,9 @@ hr {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         padding: 0px;
+        /* background-color: red; */
     }
 
     .container {
@@ -712,18 +716,19 @@ hr {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin: auto;
     }
 
     .hero-left {
-        width: 95%;
+        width: 97%;
         /* padding: 0px 10px 0px 10px; */
         display: flex;
         justify-content: center;
-        /* border-end-end-radius: 2px solid blue; */
+        /* border: 2px solid blue; */
     }
 
     .hero-right {
-        width: 95%;
+        width: 97%;
         /* background-color: red; */
         align-items: center;
         /* padding: 20px 0px 20px 0px; */
@@ -732,14 +737,14 @@ hr {
         align-items: center;
         justify-content: center;
         /* border: solid green; */
-
+        margin: auto;
 
     }
 
     .form-container {
         /* padding: 0px; */
         /* border: 2px solid black; */
-        width: 100%;
+        width: 80%;
         margin: 0px;
     }
 
@@ -758,6 +763,7 @@ hr {
     .text-keychain {
         width: 100%;
         flex-wrap: wrap;
+        /* border: 2px solid black; */
     }
 
     .text-keychain h1 {
@@ -772,11 +778,13 @@ hr {
 
     /* media for label section */
 
-    .text-label {
+    .text-label  {
         width: 90%;
         padding: 25px;
-        margin: 0px;
+        margin:auto;
+        /* border: 2px solid black; */
     }
+  
 
     .text-label h1 {
         line-height: 45px;
@@ -785,11 +793,22 @@ hr {
     /* -------------media for last images-------- */
     .last-images{
         flex-direction: column;
-        width: 80%;
+        width:100%;
         align-items: center;
+        /* border: 2px solid black; */
     }
     .last-images img{
         width: 90%;
         margin: 20px 0px;
+    }
+    .choose{
+        /* border: 2px solid black; */
+        width: 85%;
+        margin: auto;
+    }
+    .last-section{
+        width: 100%;
+        margin: auto;
+        /* background-color: blue; */
     }
 }
