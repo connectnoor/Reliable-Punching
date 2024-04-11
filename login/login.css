@@ -20,9 +20,12 @@ body{
     margin: auto;
     font-family: 'Ubuntu', sans-serif;
     border-radius:7px ;
-    box-shadow: 3px 3px 10px 5px rgb(207, 203, 203);
+
+    border: 1px solid rgb(232, 230, 230);
+    box-shadow: 1px 1px  rgb(240, 240, 240);
     padding: 50px 0px;
     background-color: white;
+    z-index: 1000;
 }
 .logo{
     margin: auto;
